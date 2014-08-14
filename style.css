@@ -102,22 +102,6 @@ nav ul li {
     color: #d9f499;
 }
 
-<div id="content">
-    <div id="mainContent">
-        <section>
-            <!-- Blog post -->
-        </section>
-        <section id="comments">
-            <!-- Comments -->
-        </section>
-        <form>
-            <!-- Comment form -->
-        </form>
-    </div>
-    <aside>
-        <!-- Sidebar -->
-    </aside>
-</div>
 
 #content {
     display: table;
@@ -134,3 +118,19 @@ nav ul li {
         width: 300px;
     }
 
+
+
+.blogPost {
+    column-count: 2;
+    column-gap: 22px;
+}
+ 
+    .blogPost header {
+        column-span: all;
+    }
+}
+
+.blogPost img {
+    margin: 22px 0;
+    box-shadow: 3px 3px 7px #777;
+}
