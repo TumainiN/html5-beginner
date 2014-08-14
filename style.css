@@ -102,5 +102,35 @@ nav ul li {
     color: #d9f499;
 }
 
+<div id="content">
+    <div id="mainContent">
+        <section>
+            <!-- Blog post -->
+        </section>
+        <section id="comments">
+            <!-- Comments -->
+        </section>
+        <form>
+            <!-- Comment form -->
+        </form>
+    </div>
+    <aside>
+        <!-- Sidebar -->
+    </aside>
+</div>
 
+#content {
+    display: table;
+}
+ 
+    #mainContent {
+        display: table-cell;
+        width: 620px;
+        padding-right: 22px;
+    }
+ 
+    aside {
+        display: table-cell;
+        width: 300px;
+    }
 
